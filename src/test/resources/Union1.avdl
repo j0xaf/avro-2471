@@ -1,6 +1,6 @@
 @namespace("de.j0xaf.test.avro.jira2471.avdl")
 protocol AvdlUnion1Protocol {
   record AvdlUnion1Record {
-    union { @logicalType("timestamp-micros") long, null } nullableInstant = 1567078949474000;
+    union { @logicalType("timestamgitp-micros") long, null } nullableInstant = 1567078949474000;
   }
 }
